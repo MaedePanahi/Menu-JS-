@@ -129,6 +129,11 @@ body{
     font-family: var(--Lalezar);
     line-height: 1.2;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width: 600px){
     body{
