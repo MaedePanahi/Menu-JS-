@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;400;800&family=Cairo:wght@200;400;600;1000&family=El+Messiri:wght@400;700&family=Gulzar&family=IBM+Plex+Sans+Arabic:wght@100;400;700&family=Lalezar&family=Lateef:wght@200;400;700&family=Lemonada:wght@400;700&family=Marhey:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Readex+Pro:wght@200;400;700&family=Vibes&display=swap');
+
+
+:root{
+    --Alexandria:  'Alexandria', sans-serif;
+    --Cairo:     'Cairo', sans-serif;
+    --ElMessiri: 'El Messiri', sans-serif;
+    --Gulzar: 'Gulzar', serif;
+    --Lalezar: 'Lalezar', cursive;
+    --Lateef:'Lateef', serif;
+    --Lemonada:'Lemonada', cursive;
+    --Marhey:'Marhey', cursive;
+    --Noto-Naskh-Arabic:'Noto Naskh Arabic', serif;
+    --Noto-Naskh-Urdu:'Noto Nastaliq Urdu', serif;
+}
+body{
+    background-color: #354b42;
+    color: #dbd7c1;
+}
+.menu{
+    margin: 2rem 0;
+}
+.menu-container{
+    max-width: 100%;
+    margin: o auto;
+    padding: o 1rem;
+}
+.menu-head{
+    text-align: center;
+    line-height: 0.5;
+}
+.menu-head h2{
+    font-size: 2.6rem;
+    font-family: var(--Noto-Naskh-Urdu);
+}
+.menu-head p{
+    font-weight: 400;
+    padding: 1.8rem 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: var(--ElMessiri);
+}
+
+.menu-btns{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+.menu-btn{
+    font-family: var(--ElMessiri);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #c05a39;
+    display: block;
+    margin: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    transition: opacity 0.4 ease-out;
+}
+.menu-btn::after{
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    background: #c05a39;
+    width: 0;
+    transition: width 0.4 ease-out;
+
+}
+.menu-btn:hover::after{
+    width: 100%;
+}
+.menu-btn:hover{
+    opacity: 0.8;
+}
+.active-btn{
+    color: #dbd7c1;
+}
+.food-items{
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 2rem;
+    line-height: 0.5;
+    
+}
