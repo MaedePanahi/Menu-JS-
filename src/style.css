@@ -15,7 +15,7 @@
 }
 body{
     background-color: #dbd7c1;
-    color: #f3d31c;
+    color: #0f2597;
 }
 .menu{
     margin: 2rem 0;
@@ -31,7 +31,7 @@ body{
 }
 .menu-head h2{
     font-size: 2.6rem;
-    font-family: var(--Noto-Naskh-Urdu);
+    font-family: var(--ElMessiri);
 }
 .menu-head p{
     font-weight: 400;
@@ -55,7 +55,7 @@ body{
     font-weight: 600;
     background: none;
     border: none;
-    color: #c05a39;
+    color: #dbd7c1;
     display: block;
     margin: 0 1rem;
     cursor: pointer;
@@ -69,7 +69,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
-    background: #c05a39;
+    background: #0f2597;
     width: 0;
     transition: width 0.4 ease-out;
 
@@ -94,7 +94,7 @@ body{
 .food-item{
     border-radius: 8px;
     overflow: hidden;
-    background: #dbd7c1;
+    background: #0f2597;
     margin: 0.6rem 0;
     box-shadow: 0 0 16px -4px rgba(0.0.0.0,75);
     /* display: ; */
@@ -105,27 +105,27 @@ body{
 }
 .food-name{
     font-family: var(--Lalezar);
-    color: #c05a39;
+    color: #0f2597;
     font-weight: 900;
     text-transform: capitalize;
 }
 .line{
     width: 100%;
     height: 3px;
-    background: #c05a39;
+    background: #0f2597;
 }
 .food-price{
     padding: 0.4rem;
     font-weight: 700;
     opacity: 0.8;
-    color: #c05a39;
+    color: #0f2597;
     font-family: var(--Lalezar);
 }
 .category{
     padding-top: 0.2rem;
     font-size: 1rem;
     font-weight: 300;
-    color: #c05a39;
+    color: #0f2597;
     font-family: var(--Lalezar);
     line-height: 1.2;
 }
