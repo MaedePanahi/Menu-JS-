@@ -14,8 +14,8 @@
     --Noto-Naskh-Urdu:'Noto Nastaliq Urdu', serif;
 }
 body{
-    background-color: #e6cb31;
-    color: #0b31f0;
+    background-color: #dca83e;
+    color: #2d548c;
 }
 .menu{
     margin: 2rem 0;
@@ -55,7 +55,7 @@ body{
     font-weight: 600;
     background: none;
     border: none;
-    color: #0f2597;
+    color: #2d548c;
     display: block;
     margin: 0 1rem;
     cursor: pointer;
@@ -69,7 +69,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5rem;
-    background: #0f2597;
+    background: #2d548c;
     width: 0;
     transition: width 0.4 ease-out;
 
@@ -81,7 +81,7 @@ body{
     opacity: 0.8;
 }
 .active-btn{
-    color: #0f2597;
+    color: #2d548c;
 }
 .food-items{
     margin: 2rem 4rem;
@@ -94,8 +94,7 @@ body{
 .food-item{
     border-radius: 8px;
     overflow: hidden;
-    background: #213ece;
-    opacity: 0.8;
+    background: #2d548c;
     margin: 0.6rem 0;
     box-shadow: 0 0 16px -4px rgba(0.0.0.0,75);
     /* display: ; */
